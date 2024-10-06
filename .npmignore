@@ -1,0 +1,8 @@
+# node modules
+/node_modules
+
+# git ignore file
+.gitignore
+
+# npm ignore file
+.npmignore

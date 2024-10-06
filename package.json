@@ -1,0 +1,33 @@
+{
+    "name": "final-api-cli",
+    "version": "1.0.0",
+    "description": "node cli for create a node rest api",
+    "main": "index.js",
+    "type": "module",
+    "homepage": "https://hariharanddeveloper.github.io/final-api-cli-website/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hariharanddeveloper/final-api-cli"
+    },
+    "bin": {
+        "fac": "./bin/index.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "sequelize",
+        "jest",
+        "docker",
+        "mongoose",
+        "commander"
+    ],
+    "author": "hariharan d",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "commander": "^12.1.0",
+        "extract-zip": "^2.0.1",
+        "inquirer": "^10.0.4",
+        "ora": "^8.0.1"
+    }
+}
