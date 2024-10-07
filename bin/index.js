@@ -9,7 +9,7 @@ import { CreateEndpoint } from "../commands/endpoint.command.js";
 
 program.description("Final API CLI for creating a Node.js REST API");
 
-program.version("1.0.0", "-v, --version", "output the version number");
+program.version("1.0.2", "-v, --version", "output the version number");
 
 program.option("-i, --init [project-name]", "initialize a new project", InitProject);
 
